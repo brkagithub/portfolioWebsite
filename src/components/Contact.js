@@ -45,7 +45,7 @@ const Contact = ({ theme }) => {
           variant="outlined"
           startIcon={<EmailIcon />}
           target="_top"
-          href={`mailto:mbrkic@gmail.com`}
+          href={`mailto:mbrkic16@gmail.com`}
         >
           email me
         </Button>
