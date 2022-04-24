@@ -15,7 +15,7 @@ const projects = [
   {
     name: "Operating system kernel",
     description:
-      "Implemented a simplified, but fully functional kernel from scratch for Intel 8086 architecture for my Operating Systems 1 class. It supports multithreading, event handling and semaphores. Building it helped me a bunch to understand how operating system actually work.",
+      "Implemented a simplified, but fully functional kernel from scratch for Intel 8086 architecture for my Operating Systems I class. It supports multithreading, event handling and semaphores. Building it helped me a bunch to understand how operating system actually work.",
     stack: ["C++", "Assembly"],
     sourceCode: "https://github.com/brkagithub/operatingSystemKernel",
     livePreview: null,
