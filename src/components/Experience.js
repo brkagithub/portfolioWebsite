@@ -60,6 +60,7 @@ const Projects = ({ theme }) => {
                     variant="body1"
                     color="secondary"
                     component="div"
+                    align="center"
                     sx={{ mb: 1, mr: 1.5 }}
                   >
                     {experience.duration}
@@ -77,6 +78,7 @@ const Projects = ({ theme }) => {
                     variant="h5"
                     color="secondary"
                     component="div"
+                    align="center"
                     sx={{
                       mb: 1,
                       ml: 1.5,
