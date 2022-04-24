@@ -60,7 +60,7 @@ const Projects = ({ theme }) => {
                     variant="body1"
                     color="secondary"
                     component="div"
-                    sx={{ mb: 1 }}
+                    sx={{ mb: 1, mr: 1.5 }}
                   >
                     {experience.duration}
                   </Typography>
@@ -78,6 +78,7 @@ const Projects = ({ theme }) => {
                     component="div"
                     sx={{
                       mb: 1,
+                      ml: 1.5,
                       fontStyle: "italic",
                       textDecoration: "underline",
                     }}
