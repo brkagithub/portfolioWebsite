@@ -68,6 +68,7 @@ const Projects = ({ theme }) => {
                     variant="h4"
                     color="secondary"
                     component="div"
+                    align="center"
                     sx={{ mb: 1 }}
                   >
                     {experience.position}
