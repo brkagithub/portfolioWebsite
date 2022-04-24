@@ -7,7 +7,11 @@ import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 const Contact = ({ theme }) => {
   return (
-    <Container maxWidth="lg" id="contact" sx={{ textAlign: "center", mb: 10 }}>
+    <Container
+      maxWidth="lg"
+      id="contact"
+      sx={{ textAlign: "center", mb: 10, mt: 4 }}
+    >
       <Typography
         variant="h3"
         color={theme.palette.mode === "dark" ? "black" : "secondary"}
