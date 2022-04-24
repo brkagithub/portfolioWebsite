@@ -2,6 +2,8 @@ import React from "react";
 import Button from "@mui/material/Button";
 import EmailIcon from "@mui/icons-material/Email";
 import { Container, Typography } from "@mui/material";
+import Link from "@mui/material/Link";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 const Contact = ({ theme }) => {
   return (
@@ -53,6 +55,20 @@ const Contact = ({ theme }) => {
         You can contact me manually at mbrkic16@gmail.com or via Discord
         brka#6795 if you want as well 😎
       </Typography>
+      <Link href="#top" underline="none">
+        <ArrowUpwardIcon
+          color={theme.palette.mode === "dark" ? "black" : "secondary"}
+          sx={{ display: "inline", mt: 3 }}
+        />
+        <Typography
+          variant="h6"
+          color={theme.palette.mode === "dark" ? "black" : "secondary"}
+          component="div"
+          sx={{ display: "inline", mt: 3 }}
+        >
+          Back to top
+        </Typography>
+      </Link>
     </Container>
   );
 };
