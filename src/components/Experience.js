@@ -93,7 +93,7 @@ const Projects = ({ theme }) => {
                     {"- " + exp}
                   </Typography>
                 ))}
-                <Typography variant="body2">
+                <Typography variant="body2" className="flexCenterWrap">
                   {experience.stack.map((tech) => (
                     <Chip
                       label={tech}
