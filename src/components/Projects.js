@@ -75,6 +75,7 @@ const Projects = ({ theme }) => {
                   variant="h5"
                   color="secondary"
                   component="div"
+                  align="center"
                   sx={{ mb: 1 }}
                 >
                   {project.name}
