@@ -29,7 +29,7 @@ const Navigation = ({ theme, onThemeModeChange }) => {
     <AppBar position="static">
       <Container maxWidth="xl" id="top">
         <Toolbar disableGutters>
-          <a href="#top">
+          <Link href="#top">
             <Typography
               variant="h4"
               noWrap
@@ -50,7 +50,7 @@ const Navigation = ({ theme, onThemeModeChange }) => {
             >
               m/b
             </Typography>
-          </a>
+          </Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -108,7 +108,7 @@ const Navigation = ({ theme, onThemeModeChange }) => {
                 </Link>
               ))}
             </Menu>
-            <Link href="#top" underline="none" component="button">
+            <Link href="#top" underline="none">
               <Typography
                 color="secondary"
                 variant="h4"
